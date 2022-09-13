@@ -8,7 +8,7 @@
     font-weight: bold;
 }
 
-.container h3{
+.container h2{
     font-weight: bold;
     color: #083171;
 }
@@ -20,3 +20,32 @@
 video {
    border-radius: 8px;
 }
+
+
+
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) { 
+    #video-sec {
+        width: 400px;
+    }
+ }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #video-sec {
+        width: 700px;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #video-sec {
+        width: 1000px;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+ }
